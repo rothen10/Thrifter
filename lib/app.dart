@@ -82,7 +82,7 @@ class _ThrifterAppState extends State<ThrifterApp> {
             defaultValue: 0,
           )];
           final Locale locale = Locale(
-            value.get(appLanguageKey, defaultValue: 'en'),
+            value.get(appLanguageKey, defaultValue: 'fr'),
           );
           final String fontPreference = value.get(
             appFontChangerKey,
